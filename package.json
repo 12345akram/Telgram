@@ -1,0 +1,22 @@
+{
+  "name": "digtal-bot",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-db": "node init_db.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mysql2": "^3.16.0",
+    "node-telegram-bot-api": "^0.67.0",
+    "stripe": "^20.1.0"
+  }
+}
