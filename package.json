@@ -1,22 +1,19 @@
 {
-  "name": "digtal-bot",
+  "name": "telegram-store-bot",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
+  "description": "Telegram store bot with MySQL, SSL and manual / stars payment",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "init-db": "node init_db.js",
     "start": "node index.js"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
-    "body-parser": "^2.2.1",
     "dotenv": "^17.2.3",
-    "express": "^5.2.1",
-    "mysql2": "^3.16.0",
-    "node-telegram-bot-api": "^0.67.0",
-    "stripe": "^20.1.0"
+    "mysql2": "^3.11.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "sqlite3": "^5.1.7"
   }
 }
