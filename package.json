@@ -1,7 +1,7 @@
 {
   "name": "telegram-store-bot",
   "version": "1.0.0",
-  "description": "Telegram store bot with MySQL, SSL and manual / stars payment",
+  "description": "Telegram store bot using SQLite and manual payment",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -12,8 +12,7 @@
   },
   "dependencies": {
     "dotenv": "^17.2.3",
-    "mysql2": "^3.11.0",
-    "node-telegram-bot-api": "^0.66.0",
+    "node-telegram-bot-api": "^0.63.0",
     "sqlite3": "^5.1.7"
   }
 }
